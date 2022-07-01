@@ -1,4 +1,4 @@
-Config = {}
+`Config = {}
 
 Config.EnableProne = true
 Config.JointEffectTime = 60

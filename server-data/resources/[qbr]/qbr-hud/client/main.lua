@@ -4,8 +4,8 @@ local radarActive = false
 local stress = 0
 local hunger = 100
 local thirst = 100
-local cashAmount = 0
-local bankAmount = 0
+local cashAmount = 25
+local bankAmount = 25
 local isLoggedIn = false
 
 -- Events

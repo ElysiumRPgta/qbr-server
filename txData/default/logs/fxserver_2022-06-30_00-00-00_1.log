@@ -1,0 +1,394 @@
+
+================================================================
+======== FXServer Starting - 6/30/2022, 11:54:43 PM             
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 93 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[38;5;73m[ citizen-server-impl] Started resource yarn
+[ citizen-server-impl] Running build tasks on resource sessionmanager-rdr3 - it'll restart once completed.
+[ citizen-server-impl] Couldn't start resource sessionmanager-rdr3.
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.0 starting...
+[ citizen-server-impl] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[ citizen-server-impl] Started resource mapmanager
+[38;5;73m[ citizen-server-impl] Running build tasks on resource webpack - it'll restart once completed.
+[         script:yarn] yarn is currently busy: we are waiting to compile webpack
+[    c-resources-core] Could not start dependency webpack for resource chat.
+[ citizen-server-impl] Couldn't start resource chat.
+[ citizen-server-impl] Started resource spawnmanager
+[ citizen-server-impl] Running build tasks on resource sessionmanager-rdr3 - it'll restart once completed.
+[38;5;73m[ citizen-server-impl] Couldn't start resource sessionmanager-rdr3.
+[   script:mapmanager] Started gametype Freeroam
+[ citizen-server-impl] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[38;5;161m[    c-scripting-core] Creating script environments for qbr-core
+[ citizen-server-impl] Started resource qbr-core
+[    c-scripting-core] Creating script environments for PolyZone
+[ citizen-server-impl] Started resource PolyZone
+[    c-scripting-core] Creating script environments for connectqueue
+[38;5;173m[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
+[ citizen-server-impl] Stopping resource hardcap
+[ citizen-server-impl] Started resource connectqueue
+[    c-scripting-core] Creating script environments for interact-sound
+[ citizen-server-impl] Started resource interact-sound
+[38;5;73m[ citizen-server-impl] Started resource mediccamp
+[ citizen-server-impl] Started resource menuv
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[ citizen-server-impl] Started resource progressbar
+[ citizen-server-impl] Started resource safecracker
+[    c-scripting-core] Creating script environments for qbr-adminmenu
+[ citizen-server-impl] Started resource qbr-adminmenu
+[    c-scripting-core] Creating script environments for qbr-ambulancejob
+[ citizen-server-impl] Started resource qbr-ambulancejob
+[    c-scripting-core] Creating script environments for qbr-banking
+[ citizen-server-impl] Started resource qbr-banking
+[    c-scripting-core] Creating script environments for qbr-clothing
+[38;5;73m[ citizen-server-impl] Started resource qbr-clothing
+[    c-scripting-core] Creating script environments for qbr-doorlock
+[38;5;73m[ citizen-server-impl] Started resource qbr-doorlock
+[    c-scripting-core] Creating script environments for qbr-hud
+[ citizen-server-impl] Started resource qbr-hud
+[ citizen-server-impl] Started resource qbr-input
+[ citizen-server-impl] Started resource qbr-interiors
+[38;5;161m[    c-scripting-core] Creating script environments for qbr-inventory
+[ citizen-server-impl] Started resource qbr-inventory
+[ citizen-server-impl] Started resource qbr-lockpick
+[    c-scripting-core] Creating script environments for qbr-management
+[ citizen-server-impl] Started resource qbr-management
+[ citizen-server-impl] Started resource qbr-menu
+[    c-scripting-core] Creating script environments for qbr-spawn
+[38;5;73m[ citizen-server-impl] Started resource qbr-spawn
+[    c-scripting-core] Creating script environments for qbr-multicharacter
+[ citizen-server-impl] Started resource qbr-multicharacter
+[38;5;161m[    c-scripting-core] Creating script environments for qbr-policejob
+[ citizen-server-impl] Started resource qbr-policejob
+[    c-scripting-core] Creating script environments for qbr-scoreboard
+[ citizen-server-impl] Started resource qbr-scoreboard
+[    c-scripting-core] Creating script environments for qbr-shops
+[ citizen-server-impl] Started resource qbr-shops
+[    c-scripting-core] Creating script environments for qbr-smallresources
+[ citizen-server-impl] Started resource qbr-smallresources
+[    c-scripting-core] Creating script environments for qbr-stable
+[ citizen-server-impl] Started resource qbr-stable
+[38;5;161m[    c-scripting-core] Creating script environments for qbr-weapons
+[ citizen-server-impl] Started resource qbr-weapons
+[ citizen-server-impl] Started resource rsg_alerts
+[ citizen-server-impl] Started resource rsg_anticheat
+[    c-scripting-core] Creating script environments for rsg_butcher
+[ citizen-server-impl] Started resource rsg_butcher
+[    c-scripting-core] Creating script environments for rsg_contraband
+[ citizen-server-impl] Started resource rsg_contraband
+[    c-scripting-core] Creating script environments for rsg_cooking
+[ citizen-server-impl] Started resource rsg_cooking
+[    c-scripting-core] Creating script environments for rsg_crafting
+[38;5;73m[ citizen-server-impl] Started resource rsg_crafting
+[    c-scripting-core] Creating script environments for rsg_drinker
+[ citizen-server-impl] Started resource rsg_drinker
+[38;5;161m[    c-scripting-core] Creating script environments for rsg_emotes
+[ citizen-server-impl] Started resource rsg_emotes
+[    c-scripting-core] Creating script environments for rsg_farming
+[ citizen-server-impl] Started resource rsg_farming
+[ citizen-server-impl] Started resource rsg_menubase
+[    c-scripting-core] Creating script environments for rsg_fasttravel
+[38;5;73m[ citizen-server-impl] Started resource rsg_fasttravel
+[    c-scripting-core] Creating script environments for rsg_fishing
+[ citizen-server-impl] Started resource rsg_fishing
+[38;5;161m[    c-scripting-core] Creating script environments for rsg_fishvendor
+[ citizen-server-impl] Started resource rsg_fishvendor
+[38;5;161m[    c-scripting-core] Creating script environments for rsg_goldrush
+[ citizen-server-impl] Started resource rsg_goldrush
+[    c-scripting-core] Creating script environments for rsg_holding
+[ citizen-server-impl] Started resource rsg_holding
+[38;5;161m[    c-scripting-core] Creating script environments for rsg_indiantobacco
+[ citizen-server-impl] Started resource rsg_indiantobacco
+[    c-scripting-core] Creating script environments for rsg_looting
+[ citizen-server-impl] Started resource rsg_looting
+[ citizen-server-impl] Started resource rsg_maxcores
+[    c-scripting-core] Creating script environments for rsg_mining
+[ citizen-server-impl] Started resource rsg_mining
+[    c-scripting-core] Creating script environments for rsg_moonshiner
+[ citizen-server-impl] Started resource rsg_moonshiner
+[38;5;161m[    c-scripting-core] Creating script environments for rsg_outlawpost
+[ citizen-server-impl] Started resource rsg_outlawpost
+[    c-scripting-core] Creating script environments for rsg_pets
+[38;5;73m[ citizen-server-impl] Started resource rsg_pets
+[38;5;161m[    c-scripting-core] Creating script environments for rsg_properties
+[ citizen-server-impl] Started resource rsg_properties
+[ citizen-server-impl] Started resource rsg_pvp
+[ citizen-server-impl] Started resource rsg_railroadjob
+[    c-scripting-core] [0mCreating script environments for rsg_rhodesbankheist
+[38;5;73m[ citizen-server-impl] Started resource rsg_rhodesbankheist
+[ citizen-server-impl] Started resource rsg_river
+[ citizen-server-impl] Started resource rsg_storage
+[    c-scripting-core] Creating script environments for rsg_tobaccofactory
+[ citizen-server-impl] Started resource rsg_tobaccofactory
+[    c-scripting-core] Creating script environments for rsg_trapervendor
+[ citizen-server-impl] Started resource rsg_trapervendor
+[    c-scripting-core] Creating script environments for rsg_travel
+[ citizen-server-impl] Started resource rsg_travel
+[    c-scripting-core] Creating script environments for rsg_treasure
+[38;5;73m[ citizen-server-impl] Started resource rsg_treasure
+[ citizen-server-impl] Started resource rsg_waterpump
+[    c-scripting-core] Creating script environments for rsg_weathersync
+[ citizen-server-impl] Started resource rsg_weathersync
+[    c-scripting-core] Creating script environments for rsg_woodcutter
+[ citizen-server-impl] Started resource rsg_woodcutter
+[ citizen-server-impl] Started resource moonshineshacks
+[38;5;73m[ citizen-server-impl] Started resource redm_mexico_map
+[ citizen-server-impl] Started resource rsg_ipls
+[         script:yarn] [yarn] yarn install v1.22.5
+[         script:yarn] [1/4] Resolving packages...
+[         script:yarn] [2/4] Fetching packages...
+[         script:yarn] [3/4] Linking dependencies...
+[         script:yarn] 
+[         script:yarn] [yarn] yarn install v1.22.5
+[         script:yarn] 
+[         script:yarn] Error: [yarn] warning Waiting for the other yarn instance to finish (pid undefined, inside undefined)
+[         script:yarn] 
+[         script:yarn] yarn is currently busy: we are waiting to compile webpack
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[   script:mapmanager] Started map redm-map-one
+[ citizen-server-impl] Started resource redm-map-one
+[         script:yarn] [yarn] [4/4] Building fresh packages...
+[         script:yarn] Done in 1.98s.
+[         script:yarn] 
+[         script:yarn] Error: [yarn] warning Ignored scripts due to flag.
+[         script:yarn] 
+[ citizen-server-impl] Build tasks completed - starting resource sessionmanager-rdr3.
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[ citizen-server-impl] Started resource sessionmanager-rdr3
+[      script:oxmysql] Error: [93mUnable to establish a connection to the database!
+[      script:oxmysql] [Error: Unknown database 'qbrcore']
+[         script:yarn] [yarn] [1/4] Resolving packages...
+[         script:yarn] 
+[         script:yarn] [yarn] success Already up-to-date.
+[         script:yarn] 
+[         script:yarn] [yarn] Done in 1.39s.
+[         script:yarn] 
+[ citizen-server-impl] Build tasks completed - starting resource sessionmanager-rdr3.
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://iampurple-xblebx.users.cfx.re/
+[         script:yarn] [yarn] yarn install v1.22.5
+[         script:yarn] 
+[         script:yarn] [yarn] [1/4] Resolving packages...
+[         script:yarn] 
+[         script:yarn] [yarn] [2/4] Fetching packages...
+[         script:yarn] 
+[         script:yarn] [yarn] info fsevents@2.3.1: The platform "win32" is incompatible with this module.
+[         script:yarn] 
+[         script:yarn] [yarn] info "fsevents@2.3.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] 
+[         script:yarn] [yarn] info fsevents@1.2.13: The platform "win32" is incompatible with this module.
+[         script:yarn] info "fsevents@1.2.13" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] 
+[         script:yarn] [yarn] [3/4] Linking dependencies...
+[         script:yarn] 
+[         script:yarn] [yarn] [4/4] Building fresh packages...
+[         script:yarn] 
+[         script:yarn] Error: [yarn] warning Ignored scripts due to flag.
+[         script:yarn] 
+[         script:yarn] [yarn] Done in 8.34s.
+[         script:yarn] 
+[ citizen-server-impl] Build tasks completed - starting resource webpack.
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Running build tasks on resource chat - it'll restart once completed.
+[ citizen-server-impl] Started resource webpack
+[         script:yarn] [yarn] yarn install v1.22.5
+[         script:yarn] 
+[         script:yarn] [yarn] [1/4] Resolving packages...
+[         script:yarn] 
+[         script:yarn] [yarn] [2/4] Fetching packages...
+[         script:yarn] 
+[         script:yarn] [yarn] info fsevents@1.2.11: The platform "win32" is incompatible with this module.
+[         script:yarn] 
+[         script:yarn] [yarn] info "fsevents@1.2.11" is an optional dependency and failed compatibility check. Excluding it from installation.
+[         script:yarn] 
+[         script:yarn] [yarn] [3/4] Linking dependencies...
+[         script:yarn] 
+[         script:yarn] [yarn] [4/4] Building fresh packages...
+[         script:yarn] 
+[         script:yarn] Error: [yarn] warning Ignored scripts due to flag.
+[         script:yarn] 
+[         script:yarn] [yarn] Done in 14.92s.
+[         script:yarn] 
+[      script:webpack] chat: started building webpack.config.js
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 878 milliseconds
+[      script:webpack] chat: built webpack.config.js
+[ citizen-server-impl] Build tasks completed - starting resource chat.
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+> quit "Server restarting (CarcanoRP)."
+[ citizen-server-main] -> Quitting: Server restarting (CarcanoRP).
+
+================================================================
+======== FXServer Starting - 6/30/2022, 11:59:23 PM             
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[ citizen-server-impl] Scanning resources.
+[ citizen-server-impl] Found 93 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for yarn
+[ citizen-server-impl] Started resource yarn
+[    c-scripting-core] Creating script environments for sessionmanager-rdr3
+[ citizen-server-impl] Started resource sessionmanager-rdr3
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 4.14.0 starting...
+[ citizen-server-impl] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[ citizen-server-impl] Started resource mapmanager
+[    c-scripting-core] Creating script environments for webpack
+[ citizen-server-impl] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[ citizen-server-impl] Started resource chat
+[ citizen-server-impl] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[ citizen-server-impl] Started resource basic-gamemode
+[38;5;161m[    c-scripting-core] Creating script environments for hardcap
+[ citizen-server-impl] Started resource hardcap
+[    c-scripting-core] Creating script environments for oxmysql
+[ citizen-server-impl] Started resource oxmysql
+[    c-scripting-core] Creating script environments for qbr-core
+[ citizen-server-impl] Started resource qbr-core
+[    c-scripting-core] Creating script environments for PolyZone
+[ citizen-server-impl] Started resource PolyZone
+[    c-scripting-core] Creating script environments for connectqueue
+[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
+[ citizen-server-impl] Stopping resource hardcap
+[ citizen-server-impl] Started resource connectqueue
+[    c-scripting-core] Creating script environments for interact-sound
+[ citizen-server-impl] Started resource interact-sound
+[ citizen-server-impl] Started resource mediccamp
+[38;5;73m[ citizen-server-impl] Started resource menuv
+[    c-scripting-core] Creating script environments for pma-voice
+[ citizen-server-impl] Started resource pma-voice
+[ citizen-server-impl] Started resource progressbar
+[ citizen-server-impl] Started resource safecracker
+[    c-scripting-core] Creating script environments for qbr-adminmenu
+[ citizen-server-impl] Started resource qbr-adminmenu
+[    c-scripting-core] [0mCreating script environments for qbr-ambulancejob
+[ citizen-server-impl] Started resource qbr-ambulancejob
+[    c-scripting-core] Creating script environments for qbr-banking
+[ citizen-server-impl] Started resource qbr-banking
+[    c-scripting-core] Creating script environments for qbr-clothing
+[ citizen-server-impl] Started resource qbr-clothing
+[    c-scripting-core] Creating script environments for qbr-doorlock
+[ citizen-server-impl] Started resource qbr-doorlock
+[    c-scripting-core] Creating script environments for qbr-hud
+[ citizen-server-impl] Started resource qbr-hud
+[ citizen-server-impl] Started resource qbr-input
+[ citizen-server-impl] Started resource qbr-interiors
+[    c-scripting-core] Creating script environments for qbr-inventory
+[ citizen-server-impl] Started resource qbr-inventory
+[ citizen-server-impl] Started resource qbr-lockpick
+[    c-scripting-core] Creating script environments for qbr-management
+[ citizen-server-impl] [0mStarted resource qbr-management
+[ citizen-server-impl] Started resource qbr-menu
+[    c-scripting-core] Creating script environments for qbr-spawn
+[38;5;73m[ citizen-server-impl] Started resource qbr-spawn
+[38;5;161m[    c-scripting-core] Creating script environments for qbr-multicharacter
+[ citizen-server-impl] Started resource qbr-multicharacter
+[    c-scripting-core] Creating script environments for qbr-policejob
+[ citizen-server-impl] Started resource qbr-policejob
+[    c-scripting-core] Creating script environments for qbr-scoreboard
+[ citizen-server-impl] Started resource qbr-scoreboard
+[    c-scripting-core] Creating script environments for qbr-shops
+[ citizen-server-impl] Started resource qbr-shops
+[    c-scripting-core] Creating script environments for qbr-smallresources
+[ citizen-server-impl] Started resource qbr-smallresources
+[    c-scripting-core] Creating script environments for qbr-stable
+[ citizen-server-impl] Started resource qbr-stable
+[    c-scripting-core] Creating script environments for qbr-weapons
+[38;5;73m[ citizen-server-impl] Started resource qbr-weapons
+[ citizen-server-impl] Started resource rsg_alerts
+[ citizen-server-impl] Started resource rsg_anticheat
+[    c-scripting-core] Creating script environments for rsg_butcher
+[ citizen-server-impl] Started resource rsg_butcher
+[    c-scripting-core] Creating script environments for rsg_contraband
+[ citizen-server-impl] Started resource rsg_contraband
+[    c-scripting-core] Creating script environments for rsg_cooking
+[ citizen-server-impl] Started resource rsg_cooking
+[    c-scripting-core] Creating script environments for rsg_crafting
+[38;5;73m[ citizen-server-impl] Started resource rsg_crafting
+[    c-scripting-core] Creating script environments for rsg_drinker
+[ citizen-server-impl] Started resource rsg_drinker
+[    c-scripting-core] [0mCreating script environments for rsg_emotes
+[ citizen-server-impl] Started resource rsg_emotes
+[    c-scripting-core] Creating script environments for rsg_farming
+[ citizen-server-impl] Started resource rsg_farming
+[ citizen-server-impl] Started resource rsg_menubase
+[    c-scripting-core] Creating script environments for rsg_fasttravel
+[ citizen-server-impl] Started resource rsg_fasttravel
+[    c-scripting-core] Creating script environments for rsg_fishing
+[ citizen-server-impl] Started resource rsg_fishing
+[    c-scripting-core] Creating script environments for rsg_fishvendor
+[ citizen-server-impl] Started resource rsg_fishvendor
+[    c-scripting-core] Creating script environments for rsg_goldrush
+[ citizen-server-impl] Started resource rsg_goldrush
+[    c-scripting-core] Creating script environments for rsg_holding
+[ citizen-server-impl] Started resource rsg_holding
+[    c-scripting-core] Creating script environments for rsg_indiantobacco
+[ citizen-server-impl] Started resource rsg_indiantobacco
+[    c-scripting-core] Creating script environments for rsg_looting
+[ citizen-server-impl] Started resource rsg_looting
+[ citizen-server-impl] Started resource rsg_maxcores
+[    c-scripting-core] Creating script environments for rsg_mining
+[ citizen-server-impl] Started resource rsg_mining
+[38;5;161m[    c-scripting-core] Creating script environments for rsg_moonshiner
+[ citizen-server-impl] Started resource rsg_moonshiner
+[    c-scripting-core] Creating script environments for rsg_outlawpost
+[ citizen-server-impl] Started resource rsg_outlawpost
+[    c-scripting-core] Creating script environments for rsg_pets
+[38;5;73m[ citizen-server-impl] [0mStarted resource rsg_pets
+[    c-scripting-core] Creating script environments for rsg_properties
+[ citizen-server-impl] Started resource rsg_properties
+[ citizen-server-impl] Started resource rsg_pvp
+[ citizen-server-impl] Started resource rsg_railroadjob
+[    c-scripting-core] [0mCreating script environments for rsg_rhodesbankheist
+[ citizen-server-impl] [0mStarted resource rsg_rhodesbankheist
+[ citizen-server-impl] Started resource rsg_river
+[ citizen-server-impl] Started resource rsg_storage
+[    c-scripting-core] Creating script environments for rsg_tobaccofactory
+[ citizen-server-impl] Started resource rsg_tobaccofactory
+[    c-scripting-core] Creating script environments for rsg_trapervendor
+[38;5;73m[ citizen-server-impl] Started resource rsg_trapervendor
+[    c-scripting-core] Creating script environments for rsg_travel
+[ citizen-server-impl] Started resource rsg_travel
+[38;5;161m[    c-scripting-core] Creating script environments for rsg_treasure
+[ citizen-server-impl] Started resource rsg_treasure
+[ citizen-server-impl] [0mStarted resource rsg_waterpump
+[    c-scripting-core] [0mCreating script environments for rsg_weathersync
+[ citizen-server-impl] Started resource rsg_weathersync
+[    c-scripting-core] Creating script environments for rsg_woodcutter
+[38;5;73m[ citizen-server-impl] Started resource rsg_woodcutter
+[ citizen-server-impl] Started resource moonshineshacks
+[ citizen-server-impl] Started resource redm_mexico_map
+[ citizen-server-impl] Started resource rsg_ipls
+[38;5;84m[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[   script:mapmanager] Started map redm-map-one
+[ citizen-server-impl] Started resource redm-map-one
+[      script:oxmysql] Error: Unable to establish a connection to the database!
+[      script:oxmysql] [Error: Unknown database 'qbrcore']
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://iampurple-xblebx.users.cfx.re/
+[38;5;173m[ script:connectqueue] QUEUE: Purpel[steam:11000011385640e] was placed 1/1 in queue
+[38;5;173m[ script:connectqueue] QUEUE: Purpel[steam:11000011385640e] is loading into the server

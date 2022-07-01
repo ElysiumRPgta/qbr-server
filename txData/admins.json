@@ -1,0 +1,21 @@
+[
+  {
+    "name": "CarcanoRP",
+    "master": true,
+    "password_hash": "$2a$11$NIaS1DAy67.VRSPwuG0lmuoR9A0jD/GyeazhW5/0dEKrlCpH.fu4q",
+    "providers": {
+      "citizenfx": {
+        "id": "CarcanoRP",
+        "identifier": "fivem:7404895",
+        "data": {
+          "sub": "85a47d99232788cb370dd85f1de1b2c6",
+          "nameid": "https://forum.cfx.re/internal/user/7404895",
+          "name": "CarcanoRP",
+          "picture": "https://avatars.discourse.org/v4/letter/c/7933a0/256.png",
+          "profile": "https://forum.cfx.re/u/CarcanoRP"
+        }
+      }
+    },
+    "permissions": []
+  }
+]
