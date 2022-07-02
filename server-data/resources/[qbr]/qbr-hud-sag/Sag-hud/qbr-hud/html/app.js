@@ -146,12 +146,12 @@ const playerHud = {
             } else {
                 this.showArmor = true;
             }
-            if (data.hunger >= 100) {
+            if (data.hunger >= 95) {
                 this.showHunger = false;
             } else {
                 this.showHunger = true;
             }
-            if (data.thirst >= 100) {
+            if (data.thirst >= 95) {
                 this.showThirst = false;
             } else {
                 this.showThirst = true;
@@ -162,7 +162,7 @@ const playerHud = {
                 this.showStress = true;
             }
 			if (data.voice == 1) {
-				this.talkingColor = "#FF0000";
+				this.talkingColor = "#FFFF00";
 			} else {
 				this.talkingColor = "#FFFFFF";
 			}
