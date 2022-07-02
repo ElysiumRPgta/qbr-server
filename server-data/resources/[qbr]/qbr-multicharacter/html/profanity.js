@@ -447,7 +447,6 @@ const profList = [
     "whoar",
     "whore",
     "willies",
-    "willy",
     "xrated",
     "xxx",
 ];

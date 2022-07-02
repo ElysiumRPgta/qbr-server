@@ -411,7 +411,7 @@ developerOptions:On('open', function(menu)
 end)
 
 OpenPlayerMenu = function(player)
-  local playerMenu = MenuV:CreateMenu(false, player.id .. Lang:t('info.options'), menuLocation, 220, 20, 60, menuSize, 'qbcore', 'menuv', 'test6')
+  local playerMenu = MenuV:CreateMenu(false, player.id .. Lang:t('info.options'), menuLocation, 220, 20, 60, menuSize, 'qbcore', 'menuv')
   playerMenu:ClearItems()
   MenuV:OpenMenu(playerMenu)
 
@@ -519,7 +519,7 @@ OpenPlayerMenu = function(player)
 end
 
 OpenBanMenu = function(banplayer)
-  local banMenu = MenuV:CreateMenu(false, Lang:t('menu.ban'), menuLocation, 220, 20, 60, menuSize, 'qbcore', 'menuv', 'test9')
+  local banMenu = MenuV:CreateMenu(false, Lang:t('menu.ban'), menuLocation, 220, 20, 60, menuSize, 'qbcore', 'menuv')
   banMenu:ClearItems()
   MenuV:OpenMenu(banMenu)
 
@@ -612,7 +612,7 @@ OpenBanMenu = function(banplayer)
 end
 
 OpenKickMenu = function(kickplayer)
-  local kickMenu = MenuV:CreateMenu(false, Lang:t('menu.kick'), menuLocation, 220, 20, 60, menuSize, 'qbcore', 'menuv', 'test7')
+  local kickMenu = MenuV:CreateMenu(false, Lang:t('menu.kick'), menuLocation, 220, 20, 60, menuSize, 'qbcore', 'menuv')
   kickMenu:ClearItems()
   MenuV:OpenMenu(kickMenu)
 
@@ -643,7 +643,7 @@ end
 OpenPermsMenu = function(permsplayer)
   exports['qbr-core']:TriggerCallback('admin:server:hasperms', function(hasperms)
     if hasperms then
-      local permMenu = MenuV:CreateMenu(false, Lang:t('menu.perms'), menuLocation, 220, 20, 60, menuSize, 'qbcore', 'menuv', 'test8')
+      local permMenu = MenuV:CreateMenu(false, Lang:t('menu.perms'), menuLocation, 220, 20, 60, menuSize, 'qbcore', 'menuv')
       permMenu:ClearItems()
       MenuV:OpenMenu(permMenu)
 
